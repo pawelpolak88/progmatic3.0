@@ -48,7 +48,7 @@ html {
 
 ::-webkit-scrollbar-thumb {
 	border-radius: 10px;
-	background: #2d9acc;
+	background: #1a2023;
 }
 
 .header-mobile {
@@ -340,10 +340,6 @@ html {
 				font-size: 14px;
 				opacity: 0.5;
 				margin-top: 32px;
-			}
-
-			.link {
-				color: #2d9acc;
 			}
 
 			.about-powered {
@@ -642,9 +638,9 @@ html {
 							font-weight: 400;
 							font-size: 16px;
 							line-height: 180%;
-							border: 1px solid #e1e7ec;
 							border-radius: 8px;
 							padding: 16px;
+							background-color: #af242a;
 
 							&__logo {
 								margin-right: 16px;
@@ -778,9 +774,6 @@ html {
 
 @media (max-width: 1350px) {
 	.main {
-		.aside {
-		}
-
 		.container {
 			.block {
 				&-container {
@@ -996,9 +989,6 @@ html {
 		.container {
 			padding-left: 0;
 			width: 100%;
-
-			.block {
-			}
 		}
 	}
 }
@@ -1136,9 +1126,6 @@ html {
 
 							&:first-child {
 								margin-top: 0;
-							}
-
-							.total {
 							}
 
 							.discription {
@@ -1484,8 +1471,6 @@ html {
 									font-weight: 400;
 									font-size: 16px;
 									line-height: 180%;
-									&__link {
-									}
 								}
 
 								.token-warning {
